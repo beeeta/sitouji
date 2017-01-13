@@ -1,0 +1,80 @@
+/* 基础样式 */
+view,scroll-view,swiper,swiper-item,icon,text,progress,button,checkbox-group,checkbox,form,input,label,picker,radio-group,radio,slider,switch,action-sheet,action-sheet-item,action-sheet-cancel,modal,toast,loading,navigator,audio,image,video,map,canvas {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+page {
+        height: 100%;
+        font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+
+
+
+checkbox-group,
+radio-group{
+        display:block;
+}
+
+
+
+
+:before,
+:after ,
+::before,
+::after{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.c-minheight {
+        min-height: 80px;
+}
+.c-full {
+        width: 100%;
+        height: 100%;
+}
+.c-block {
+        display: block;
+}
+.c-autosize {
+        width: auto;
+        height: auto;
+}
+.c-fullwidth {
+        width: 100%;
+}
+.c-fullheight {
+        height: 100%;
+}
+.c-initHide{
+        opacity:0 !important;
+}
+.c-ellipse{
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow:hidden;
+}
+/* 自定义样式 */
+
+
+
+
+.wx-view_B9O9oM{display: flex; }
+.wx-image_LZt96d{display:  flex; width:  65px; height:  65px; margin-top:  35px; flex-direction: column; }
+.wx-view_tGQggV{display:  flex; justify-content:  space-around; margin-top: 35px; }
+.wx-image_Ds27Bi{display:  flex; width:  65px; height:  65px; margin-top: 35px; }
+.wx-text_e3QKYa{font-size:  10px; text-align:  center; display:  flex; flex-direction:  column; justify-content:  center; margin-top: 23px; }
+.wx-view_Wa06Sx{display:  flex; padding-top:  10px; justify-content:  space-around; margin-top: 139px; }
+.wx-image_hwjhe8{width:  60px; height:  60px; display:  flex; flex-direction: row; }
+.wx-image_3hrgdE{width:  60px; height:  60px; display: flex; }
+.wx-image_tC46uE{width:  60px; height:  60px; display: flex; }
+.wx-button_TZkHQL{margin-top: 89px; }
+.wx-view_Mts24I{padding-left:  40px; padding-right:  40px; display:  block; padding-top: 25px; }
+
+
+
+

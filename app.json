@@ -1,0 +1,14 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "white", 
+    "navigationBarBackgroundColor": "#000000", 
+    "navigationBarTitleText": "\u77f3\u5934\u526a\u5200\u5e03\u8863\uff01", 
+    "backgroundColor": "#ffffff", 
+    "enablePullDownRefresh": false, 
+    "backgroundTextStyle": "dark"
+  }, 
+  "pages": [
+    "page/index/index"
+  ]
+}
