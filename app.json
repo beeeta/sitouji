@@ -9,6 +9,7 @@
     "backgroundTextStyle": "dark"
   }, 
   "pages": [
-    "page/index/index"
+    "page/index/index",
+    "page/play/play"
   ]
 }

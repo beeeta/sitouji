@@ -1,77 +1,27 @@
-
-// 引入coolsite360交互配置设定
-require('coolsite.config.js');
-
-// 获取全局应用程序实例对象
-var app = getApp();
-
-// 创建页面实例对象
+//index.js
+//获取应用实例
+var app = getApp()
 Page({
-  /**
-   * 页面名称
-   */
-  name: "index",
-  /**
-   * 页面的初始数据
-   */
-
   data: {
-    autoChange:false,
-
-  
-  
+    motto: '小程序，So Cool!',
+    userInfo: {}
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad () {
-    // 注册coolsite360交互模块
-    app.coolsite360.register(this);
-    
+  //事件处理函数
+  begin: function() {
+    wx.navigateTo({
+      url: '../play/play'
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow () {
-    // 执行coolsite360交互组件展示
-    app.coolsite360.onShow(this);
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh () {
-    
-  },
-  
-
-  //以下为自定义点击事件
-  replay(){
-
+  onLoad: function () {
+    console.log('onLoad')
+    var that = this
+    //调用应用实例的方法获取全局数据
+    app.getUserInfo(function(userInfo){
+      //更新数据
+      that.setData({
+        userInfo:userInfo
+      })
+    })
   },
 
 })
-
