@@ -11,7 +11,7 @@ Page({
     wx.navigateTo({
       url: '../play/play'
     })
-  },
+  }, 
   onLoad: function () {
     console.log('onLoad')
     var that = this
