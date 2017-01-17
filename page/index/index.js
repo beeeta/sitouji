@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '小程序，So Cool!',
+    motto: 'Betalun-One',
     userInfo: {}
   },
   //事件处理函数

@@ -1,7 +1,7 @@
-<text class="c-block wx-text_e3QKYa" data-c_e_id="wx_textd8776cf6">历史最高连赢记录:{{maxRecord}}期待你的突破！</text>
+<text class="c-block wx-text_e3QKYa" data-c_e_id="wx_textd8776cf6">得分:{{count}}，最高得分:{{max}},期待你的突破！</text>
 <view class="c-minheight wx-view_tGQggV" data-c_e_id="wx_view_81d60218">
     <image class="topImage wx-image_LZt96d" data-c_e_id="wx_image_5cdca47f" mode="center" src="{{aiChoice}}" style="background-size: auto; background-position: center center; background-repeat: no-repeat;"/>
-    <text class="c-block wx-text_e3QKYa" data-c_e_id="wx_text_7f0676c0">已赢了{{winCount}}次</text>
+    <text class="c-block wx-text_e3QKYa" data-c_e_id="wx_text_7f0676c0">{{choiceRes}}</text>
     <image class="topImage wx-image_LZt96d" data-c_e_id="wx_imagec2f17ab6" mode="center" src="{{myChoice}}" style="background-size: auto; background-position: center center; background-repeat: no-repeat;"/>
 </view>
 <view class="c-minheight wx-view_Wa06Sx" data-c_e_id="wx_view_41056508">
